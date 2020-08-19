@@ -491,3 +491,208 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.7;
     font-family: 'Montserrat';
 }
+
+/* Includes */
+
+.pricing__includes {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.includes__line {
+    margin: 14px 0 32px;
+}
+
+.includes__title {
+    font-size: 22px;
+    font-weight: 300;
+    color: #0F5F5C;
+}
+
+.includes__boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.includes__item {
+    width: 283px;
+    display: block;
+    text-align: left;
+    margin-left: 102px;
+}
+
+.includes__item:first-child {
+    margin-left: 0;
+}
+
+.item__string {
+    align-items: center;
+    display: flex;
+    margin-bottom: 5px;
+    color: #83A7A5;
+}
+
+.includes__item__img {
+    margin-right: 7px;
+}
+
+/* Includes Help */
+
+.help {
+    text-align: center;
+}
+
+.help__title {
+    color: #6FB048;
+    font-weight: 300;
+    font-size: 32px;
+    margin-top: 5px;
+}
+
+.help__subtitle {
+    color: #83A7A5;
+    font-size: 15px;
+    margin-bottom: 31px;
+    padding: 0 246px;
+}
+
+.help__mail {
+    color: #0F5F5C;
+    font-size: 18px;
+    margin-bottom: 95px;
+}
+
+.help__line {
+    margin: 12px 0 15px 0;
+}
+
+/* Download */
+
+.download {
+    background: url(img/download/Clip.png) no-repeat center / cover;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 67px 222px 76px 224px;
+}
+
+.download__text {
+    width: 547px;
+}
+
+.download__title {
+    color: #0F5F5C;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.download__subtitle {
+    color: #83A7A5;
+    font-size: 15px;
+}
+
+.download__button {
+    width: 285px;
+    height: 42px;
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 14px 0;
+}
+
+/* Footer */
+
+.footer {
+    padding: 90px 0 16px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__contact {
+    text-align: left;
+    width: 183px;
+    color: #83A7A5;
+    font-size: 13px;
+}
+
+.footer__item {
+    line-height: 2.1;
+}
+
+.footer__item__title {
+    color: #0F5F5C;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.footer__company__link {
+    text-decoration: none;
+    color: #83A7A5;
+}
+
+.footer__wapik {
+    font-weight: 700;
+    font-family: 'Merriweather';
+    font-size: 22px;
+}
+
+.footer__input {
+    border: 0;
+    background-color: #EEF1EC;
+    width: 120px;
+}
+
+.footer__email__input {
+    display: flex;
+    background-color: #EEF1EC;
+    justify-content: space-between;
+    height: 36px;
+    padding-right: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+}
+
+.fei__img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer__input::placeholder {
+    font-size: 13px;
+    color: #83A7A5;
+}
+
+
+/* footer copyrighting */
+
+.footer__copyrighting {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #c0c5bd;
+    padding-top: 19px;
+    margin-top: 55px;
+}
+
+.cr__text {
+    font-size: 12px;
+    color: #83A7A5;
+}
+
+.social__icon {
+    width: 20px;
+    height: 20px;
+}
+
+.social__item {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.social__item::first-child {
+    margin-left: 0;
+}
